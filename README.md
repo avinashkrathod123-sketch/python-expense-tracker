@@ -1,68 +1,91 @@
+
 # 💰 Python Expense Tracker
 
-A beginner-friendly, command-line Expense Tracker built with Python. It helps users manage their income and expenses, track monthly spending, set budgets, and export transactions to CSV.
+A Python-based personal finance tracker that helps users manage their income and expenses, monitor monthly spending, and maintain budgets through an interactive terminal interface.
 
-## Features
+## ✨ Features
 
-- Add income and expenses
-- View transaction history
-- Calculate total income, expenses, and balance
-- Search transactions by category
-- Delete transactions
-- Edit existing transactions
-- Generate monthly financial summaries
-- Export transactions to CSV for Excel
-- Set monthly spending budgets
-- View budget usage and remaining balance
-- Save data using JSON files
+- ➕ Add income and expenses
+- 📋 View all transactions
+- ✏️ Edit existing transactions
+- 🗑️ Delete transactions
+- 🔍 Search transactions by category
+- 📊 Financial summary
+- 📅 Monthly financial summary
+- 💵 Set monthly budgets
+- ⚠️ Budget usage alerts
+- 📈 Track remaining budget and overspending
+- 📤 Export transactions to CSV
+- 💾 Persistent data storage using JSON
+- 🖥️ Rich terminal interface
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- Python
-- JSON (data storage)
-- CSV (transaction export)
-- VS Code
+- **Python**
+- **JSON** – Data persistence
+- **CSV** – Transaction export
+- **Rich** – Enhanced terminal interface
+- **Git & GitHub** – Version control
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
-Expense tracker/
+python-expense-tracker/
 │
 ├── main.py
 ├── tracker.py
 ├── budget.py
-├── transactions.csv
-├── transactions.json
-├── budget.json
-└── README.md
+├── README.md
+├── .gitignore
+│
+├── transactions.json       # Local transaction data
+├── budget.json            # Local budget data
+└── transactions.csv        # Exported transaction data
 ```
 
-## How to Run
+> Personal financial data files are excluded from version control using `.gitignore`.
 
-1. Install Python on your computer.
-2. Clone or download this repository.
-3. Open the project folder in VS Code.
-4. Open the terminal in the project directory.
-5. Run:
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/avinashkrathod123-sketch/python-expense-tracker.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd python-expense-tracker
+```
+
+### 3. Install dependencies
+
+```bash
+pip install rich
+```
+
+### 4. Run the application
 
 ```bash
 python main.py
 ```
 
-## Data Storage
+## 📸 Screenshots
 
-Transactions and budgets are stored locally in JSON files:
+_Screenshots of the application will be added here._
 
-- `transactions.json` – stores income and expense records.
-- `budget.json` – stores monthly budgets.
+## 🎯 Project Objective
 
-Transactions can also be exported to `transactions.csv` for viewing in spreadsheet applications.
+This project was developed to practice Python programming and apply concepts such as functions, modular programming, data handling, file operations, validation, exception handling, and version control in a practical application.
 
-## Purpose
+## 👨‍💻 Author
 
-This project was created to practice Python programming, including functions, lists, dictionaries, loops, conditional statements, exception handling, file handling, JSON, and modular programming.
+**Avinash Rathod**
+
+GitHub: [@avinashkrathod123-sketch](https://github.com/avinashkrathod123-sketch)
 
 ---
 
-**Built as a Python learning project.
+⭐ If you find this project useful, feel free to explore it!
 
