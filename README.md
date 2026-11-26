@@ -73,7 +73,12 @@ python main.py
 
 ## 📸 Screenshots
 
-_Screenshots of the application will be added here._
+## 📸 Screenshots
+
+### Main Dashboard
+
+![Expense Tracker Dashboard](screenshots/dashboard.png)
+
 
 ## 🎯 Project Objective
 
